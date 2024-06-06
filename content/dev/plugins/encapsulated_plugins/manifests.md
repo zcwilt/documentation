@@ -3,9 +3,9 @@ title: Manifest Files
 description:  
 weight: 10
 layout: docs
+tags:
+    - v157+
 ---
-
-## Manifest Files
 
 Each plugin must have a `manifest.php` file in the root of its version directory.
 

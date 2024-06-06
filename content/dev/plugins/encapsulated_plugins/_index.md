@@ -3,6 +3,8 @@ title: Encapsulated Plugins
 description: A new architecture for writing plugins
 category: plugins
 weight: 10
+tags:
+    - v157+
 ---
 
 In Zen Cart v1.5.7,  a Plugin Manager was added to begin allowing support for Admin-Only plugins using the new architecture.  This support has been incrementally improved in Zen Cart 1.5.8, 2.0.0 and 2.1.0, now providing support for storefront plugins as well.

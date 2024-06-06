@@ -1,0 +1,7 @@
+{{ with .Params.tags }}
+<div class="tag-list">
+    {{ range $tag := . }}
+    <span class="tag-pill">{{ $tag }}</span>
+    {{ end }}
+</div>
+{{ end }}

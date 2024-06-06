@@ -1,6 +1,7 @@
 <div class="td-content">
-	<h1>{{ .Title }}</h1>
-	{{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ partial "tag-list.html" . }}
+    {{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
 	{{ .Content }}
 
    {{ partial "morehelp.html" . }}
