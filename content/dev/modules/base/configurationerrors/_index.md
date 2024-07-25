@@ -1,7 +1,7 @@
 ---
-title: Order Totals Modules
+title: Module Configuration Errors
 description: 
-weight: 140
+weight: 100
 layout: docs
 ---
 
@@ -10,3 +10,4 @@ The documentation in this section is Work in progress and relates to features th
 {{% /alert %}}
 
 # Introduction
+
